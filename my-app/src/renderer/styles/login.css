@@ -1,0 +1,76 @@
+.login{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+}
+
+.login-container{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(230,37,37);
+    border-radius: 20px;
+}
+
+.login-input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.login-label{
+    width: 50%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.login-input{
+    width: 50%;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #f0f0f0;
+    background-color: rgb(17, 17, 17);
+    height: 50px;
+    font-size: x-large;
+    color: #f0f0f0;
+}
+
+.logo{
+    height: auto;
+    width: 100px;
+}
+
+.login-btn{
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(17, 17, 17);
+    border: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    padding: 5px;
+    transition: color 0.2s ease;
+}
+
+.login-btn:hover{
+    color: rgb(230,37,37);
+}
+
+.recover{
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.recover-btn{
+    background-color: yellow;
+    border: 1px solid wheat;
+    cursor: pointer;
+}

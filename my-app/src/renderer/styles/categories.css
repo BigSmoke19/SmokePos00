@@ -1,0 +1,76 @@
+.categories{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-cat{
+    border: 1px solid rgb(230,37,37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.add-cat-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+
+.add-cat-button{
+    background-color: rgb(230,37,37);
+    border: none;
+    color: #ffff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: color ease-in-out 0.2s,
+    background-color ease-in-out 0.2s;
+}
+
+.add-cat-button:hover{
+    background-color: yellow;
+    color: rgb(17,17,17);
+}
+
+.categories-cat-contanier{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.categories-cat{
+    border: 1px solid rgb(230,37,37);
+    height: 60px;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+#edit-btn{
+    background-color: rgb(230,37,37);
+    border: none;
+    color: #ffff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: color ease-in-out 0.2s,
+    background-color ease-in-out 0.2s;
+    height: 25px;
+}
+
+#edit-btn:hover{
+    background-color: yellow;
+    color: rgb(17,17,17);
+}
+
+.edit-input{
+    width: 50px;
+    background-color:  inherit;
+    border: 1px solid rgb(230,37,37);
+    color: #ffff;
+    height: 25px;
+}

@@ -1,0 +1,74 @@
+.statistics{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.date-filters{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.date-entries{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.date-entry{
+    
+}
+
+.date-input{
+    width: 70px;
+}
+
+.date-label{
+    margin-right: 5px;
+}
+
+.stat-fun{
+    cursor: pointer;
+    height: 30px;
+    font-size: large;
+    margin-top: 5px;
+}
+
+.stat-data{
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 200px);
+    gap: 15px;
+}
+
+.stat-data-container{
+    border: 1px solid rgb(230,37,37);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+}
+
+.stat-data-label{
+    border-bottom: 1px solid rgb(230,37,37);
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+}
+
+.stat-data-value{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    font-size: large;
+    color: yellow;
+}
+

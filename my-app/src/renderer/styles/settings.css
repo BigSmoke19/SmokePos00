@@ -1,0 +1,54 @@
+.settings{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.settings-entries{
+    width: 100%;
+    border-bottom: 1px solid rgb(230,37,37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.settings-title{
+
+}
+
+.settings-input{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.settings-label{
+    width: 150px;
+    font-size: large;
+}
+
+.user-info-input{
+    width: 150px;
+}
+
+.settings-btn{
+    margin-bottom: 5px;
+    color: inherit;
+    background-color: rgb(230,37,37);
+    border: 1px solid white;
+    cursor: pointer;
+    height: 30px;
+    transition: color ease 0.5s, 
+    border-color ease 0.5s, background-color ease 0.5s;
+}
+
+.settings-btn:hover{
+    border-color: rgb(230, 37,37);
+    color: rgb(230, 37,37);
+    background-color:#ffff ;
+}

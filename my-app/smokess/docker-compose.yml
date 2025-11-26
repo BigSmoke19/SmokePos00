@@ -1,0 +1,18 @@
+
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: bs121903
+      MYSQL_DATABASE: smokess
+      MYSQL_PASSWORD: bs121903
+    ports:
+      - "3306:3306"
+    restart: always
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
