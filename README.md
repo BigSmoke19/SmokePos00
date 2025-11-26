@@ -15,6 +15,7 @@ Features
 - Interactive POS interface
 - Works offline as a desktop app
 - Customizable barcode input and keyboard navigation
+- Preview Statistics of sales
 
 Technologies Used
 -----------------
